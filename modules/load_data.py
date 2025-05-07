@@ -2,7 +2,7 @@ from json import load as ld
 
 from pathlib import Path
 
-data_file = Path(__file__).parent / "data.json"
+data_file = Path(__file__).parent / "data/data.json"
 
 
 def load() -> dict:
