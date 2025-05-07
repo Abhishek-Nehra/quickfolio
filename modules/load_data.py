@@ -1,6 +1,9 @@
 from json import load as ld
 
-data_file = "./data/data.json"
+from pathlib import Path
+
+data_file = Path(__file__).parent / "data.json"
+
 
 def load() -> dict:
     with open(data_file,"r") as file:
