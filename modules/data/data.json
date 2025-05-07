@@ -1,0 +1,89 @@
+{
+    "sections": {
+      "whoami": "about",
+      "Education": "education",
+      "Skills": "skills",
+      "Achievements": "achievements",
+      "Projects": "projects",
+      "Contact": "contact"
+    },
+  
+    "name": "Abhishek Nehra",
+  
+    "about": "I am a B.Tech Computer Science student with specialization in Artificial Intelligence and Machine Learning. I have a foundational understanding of programming and web development, and I am actively exploring backend development with Flask and Django. Passionate about building useful and accessible tools, I created my first portfolio project to showcase my learning and capabilities.",
+  
+    "education": [
+      {
+        "website": "https://ggnindia.dronacharya.info",
+        "university": "Dronacharya College of Engineering, Gurugram",
+        "course": "B.Tech Computer Science (AI & ML)",
+        "session": "2024-2028"
+      }
+    ],
+  
+    "skills": [
+      {
+        "title": "Programming Languages",
+        "content": {
+          "C": 2,
+          "Python": 3,
+          "HTML": 3,
+          "CSS": 2,
+          "JavaScript": 2
+        }
+      },
+      {
+        "title": "Frameworks",
+        "content": {
+          "Flask": 1,
+          "Django": 1
+        }
+      }
+    ],
+  
+    "achievements": [
+      {
+        "content": "Certificate in Business English",
+        "highlights": ["Business", "English", "Certificate"]
+      },
+      {
+        "content": "Certificate in Web Development",
+        "highlights": ["Web", "Development", "Certificate"]
+      }
+    ],
+  
+    "projects": [
+      {
+        "content": {
+          "name": "Name",
+          "desc": "Brief Description",
+          "link": "Link to Repo",
+          "skills": "Skills Used",
+          "longdesc": "Long Description",
+          "technical": "Technical Description"
+        },
+        "name": "MyPortfolio",
+        "desc": "A personal portfolio website built with Flask and HTML/CSS to showcase academic and project work.",
+        "link": "https://github.com/abhisheknehra/MyPortfolio",
+        "skills": ["Python", "HTML", "CSS", "JavaScript", "Flask"],
+        "longdesc": "This project is a beginner-friendly personal portfolio site that organizes and displays academic background, skills, achievements, and contact information. It helps present one's profile in a structured and visually appealing way.",
+        "technical": "The site is built using Flask as a micro-framework for routing and rendering templates. HTML and CSS are used for layout and styling, with basic JavaScript for interactivity. Data is stored in a JSON file and loaded dynamically using Jinja2 templates in Flask."
+      }
+    ],
+  
+    "contacts": [
+      {
+        "name": "Email",
+        "source": "abhishek.nehra@example.com",
+        "type": "email"
+      },
+      {
+        "name": "GitHub",
+        "source": "https://github.com/abhisheknehra",
+        "type": "website"
+      }
+    ],
+  
+    "experience": []
+  }
+  
