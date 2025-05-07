@@ -3,7 +3,7 @@ from flask import Flask , render_template, request , redirect
 
 ###########################################################################################
 
-__author__ = "https://github.com/sourabh945/"
+__author__ = "https://github.com/Abhishek-Nehra/quickfolio.git"
 
 ###########################################################################################
 
@@ -17,6 +17,8 @@ data = load() # this function is for read the json file
 app = Flask(__name__,template_folder="./templates")
 
 env = app.jinja_env
+
+print(data)
 
 env.cache_size = 500
 env.auto_reload = False
@@ -78,7 +80,7 @@ def before_request():
 
 @app.route("/")
 def home():
-    return render_template('home.html',data=data,source_code="https://github.com/sourabh945/Quickfolio")
+    return render_template('home.html',data=data,source_code="https://github.com/Abhishek-Nehra/quickfolio.git")
 
 
 @app.route("/projects",methods=["GET"])
@@ -91,8 +93,8 @@ def projects_page():
         for i in data['projects']:
             if i['name'] == project_name:
                 print(i['content'])
-                return render_template('project.html',data=data,project=i,source_code="https://github.com/sourabh945/Quickfolio")
-    return render_template('index.html',data=data,source_code="https://github.com/sourabh945/Quickfolio")
+                return render_template('project.html',data=data,project=i,source_code="https://github.com/Abhishek-Nehra/quickfolio.git")
+    return render_template('index.html',data=data,source_code="https://github.com/Abhishek-Nehra/quickfolio.git")
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0',port=5000)
+    app.run(debug=True,host='0.0.0.0',port=4000)
